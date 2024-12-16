@@ -23,7 +23,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "erickovilla@outlook.com",
@@ -31,7 +31,7 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "  ",
+        url: "https://github.com/DiteErick",
         icon: Icons.github,
 
         navbar: true,
@@ -105,12 +105,12 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Metal Roofing",
-      href: "https://metalroofing.com.mx",
-      dates: "Feb 2024 - Present",
+      title: "LabTrack - TSJ Zapopan",
+      href: "https://labtrack-systems-tsj.top/",
+      dates: "Jul 2024 - Dic 2024",
       active: true,
       description:
-        "Developed a website for Metal Roofing, a company that offers metal roofing solutions for residential and commercial buildings.",
+        "Developed a website for Tecnológico Superior de Jalisco, ",
       technologies: [
         "Next.js",
         "React",
@@ -122,13 +122,43 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://metalroofing.com.mx",
+          href: "https://labtrack-systems-tsj.top/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/mrPage.png",
+      image: "/tsjPage.png",
       video:
         "",
+    },
+    {
+      title: "Tensa Buildings",
+      href: "https://tensabuildings.com",
+      dates: "Oct 2024 - Present",
+      active: true,
+      description:
+        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        technologies: [
+          "Next.js",
+          "React",
+          "JavaScript",
+          "TailwindCSS",
+          "Figma",
+          "Material UI",
+        ],
+      links: [
+        {
+          type: "Website",
+          href: "https://tensabuildings.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/dillionverma/llm.report",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "/tensaPage.png",
+      video: "",
     },
     {
       title: "Frigo Espacios",
@@ -161,34 +191,30 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Tensa Buildings",
-      href: "https://tensabuildings.com",
-      dates: "Oct 2024 - Present",
+      title: "Metal Roofing",
+      href: "https://metalroofing.com.mx",
+      dates: "Feb 2024 - Present",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-        technologies: [
-          "Next.js",
-          "React",
-          "JavaScript",
-          "TailwindCSS",
-          "Figma",
-          "Material UI",
-        ],
+        "Developed a website for Metal Roofing, a company that offers metal roofing solutions for residential and commercial buildings.",
+      technologies: [
+        "Next.js",
+        "React",
+        "JavaScript",
+        "TailwindCSS",
+        "Figma",
+        "Material UI",
+      ],
       links: [
         {
           type: "Website",
-          href: "https://tensabuildings.com/",
+          href: "https://metalroofing.com.mx",
           icon: <Icons.globe className="size-3" />,
         },
-        // {
-        //   type: "Source",
-        //   href: "https://github.com/dillionverma/llm.report",
-        //   icon: <Icons.github className="size-3" />,
-        // },
       ],
-      image: "/tensaPage.png",
-      video: "",
+      image: "/mrPage.png",
+      video:
+        "",
     },
     {
       title: "LP Metal Roofing CDMX",
