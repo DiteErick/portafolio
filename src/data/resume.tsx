@@ -136,7 +136,7 @@ export const DATA = {
       dates: "Oct 2024 - Present",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "",
         technologies: [
           "Next.js",
           "React",
@@ -222,7 +222,7 @@ export const DATA = {
       dates: "Oct 2024 - Present",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "",
         technologies: [
           "Next.js",
           "React",
@@ -252,7 +252,7 @@ export const DATA = {
       dates: "Oct 2024 - Present",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "",
         technologies: [
           "Next.js",
           "React",
@@ -282,7 +282,7 @@ export const DATA = {
       dates: "Oct 2024 - Present",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "",
         technologies: [
           "Next.js",
           "React",
@@ -312,7 +312,7 @@ export const DATA = {
       dates: "Oct 2024 - Present",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "",
         technologies: [
           "Next.js",
           "React",
