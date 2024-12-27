@@ -10,40 +10,6 @@ import {
   SimpleIcon,
 } from "react-icon-cloud";
 
-
-const iconSlugs = [
-  "typescript",
-  "javascript",
-  "dart",
-  "java",
-  "react",
-  "flutter",
-  "android",
-  "html5",
-  "css3",
-  "nodedotjs",
-  "express",
-  "nextdotjs",
-  "prisma",
-  "amazonaws",
-  "postgresql",
-  "firebase",
-  "nginx",
-  "vercel",
-  "testinglibrary",
-  "jest",
-  "cypress",
-  "docker",
-  "git",
-  "jira",
-  "github",
-  "gitlab",
-  "visualstudiocode",
-  "androidstudio",
-  "sonarqube",
-  "figma",
-];
-
 export const cloudProps: Omit<ICloud, "children"> = {
   containerProps: {
     style: {
@@ -92,7 +58,7 @@ export const renderCustomIcon = (icon: SimpleIcon, theme: string) => {
 };
 
 export type DynamicCloudProps = {
-  iconSlugs?: string[];
+  iconSlugs: string[];
 };
 
 type IconData = Awaited<ReturnType<typeof fetchSimpleIcons>>;
@@ -102,11 +68,8 @@ export default function IconCloud({ iconSlugs }: DynamicCloudProps) {
   const { theme } = useTheme();
 
   useEffect(() => {
-    if (iconSlugs) {
-      fetchSimpleIcons({ slugs: iconSlugs }).then(setData);
-    }
+    fetchSimpleIcons({ slugs: iconSlugs }).then(setData);
   }, [iconSlugs]);
-  
 
   const renderedIcons = useMemo(() => {
     if (!data) return null;
