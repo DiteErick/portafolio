@@ -29,6 +29,13 @@ export const DATA = {
     email: "erickovilla@outlook.com",
     tel: "+523329588580",
     social: {
+      WhatsApp: {
+        name: "WhastApp",
+        url: "https://wa.me/3329588580",
+        icon: Icons.whatsapp,
+
+        navbar: true,
+      },
       GitHub: {
         name: "GitHub",
         url: "https://github.com/DiteErick",
@@ -56,13 +63,13 @@ export const DATA = {
       //   icon: Icons.youtube,
       //   navbar: false,
       // },
-      // email: {
-      //   name: "Send Email",
-      //   url: "#",
-      //   icon: Icons.email,
+      email: {
+        name: "Send Email",
+        url: "#",
+        icon: Icons.email,
 
-      //   navbar: false,
-      // },
+        navbar: false,
+      },
     },
   },
 
@@ -77,7 +84,7 @@ export const DATA = {
       start: "Sep 2024",
       end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "",
     },
     {
       company: "Metal Roofing",
@@ -89,7 +96,7 @@ export const DATA = {
       start: "Feb 2024",
       end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "",
     },
   ],
   education: [
@@ -110,7 +117,7 @@ export const DATA = {
       dates: "Jul 2024 - Dic 2024",
       active: true,
       description:
-        "Developed a website for Tecnológico Superior de Jalisco, ",
+        "Developed a website for Tecnológico Superior de Jalisco, Zapopan Campus, to track the use of the laboratories.",
       technologies: [
         "Next.js",
         "React",
@@ -136,7 +143,7 @@ export const DATA = {
       dates: "Oct 2024 - Present",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Developed a website for Tensa Buildings, a company that provides construction services.",
         technologies: [
           "Next.js",
           "React",
@@ -166,7 +173,7 @@ export const DATA = {
       dates: "Jul 2024 - Present",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "Developed a website for Frigo Espacios",
         technologies: [
           "Next.js",
           "React",
@@ -196,7 +203,7 @@ export const DATA = {
       dates: "Feb 2024 - Present",
       active: true,
       description:
-        "Developed a website for Metal Roofing, a company that offers metal roofing solutions for residential and commercial buildings.",
+        "Developed a website for Metal Roofing, a company that provides construction services.",
       technologies: [
         "Next.js",
         "React",
@@ -222,7 +229,7 @@ export const DATA = {
       dates: "Oct 2024 - Present",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Developed a website for Metal Roofing, a company that provides construction services.",
         technologies: [
           "Next.js",
           "React",
@@ -252,7 +259,7 @@ export const DATA = {
       dates: "Oct 2024 - Present",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Developed a website for Metal Roofing, a company that provides construction services.",
         technologies: [
           "Next.js",
           "React",
@@ -282,7 +289,7 @@ export const DATA = {
       dates: "Oct 2024 - Present",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Developed a website for Metal Roofing, a company that provides construction services.",
         technologies: [
           "Next.js",
           "React",
@@ -312,7 +319,7 @@ export const DATA = {
       dates: "Oct 2024 - Present",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Developed a website for Metal Roofing, a company that provides construction services.",
         technologies: [
           "Next.js",
           "React",
